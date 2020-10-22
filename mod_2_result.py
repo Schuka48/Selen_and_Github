@@ -44,9 +44,9 @@ try:
 
     browser.find_element_by_css_selector("a#ember61").click()
     log = browser.find_element_by_css_selector("input[name='login']")
-    log.send_keys("artem.shchukin.2000@mail.ru")
+    log.send_keys("your_mail@gmail.com")
     passwd = browser.find_element_by_css_selector("input[name='password']")
-    passwd.send_keys("hastron123")
+    passwd.send_keys("your_password")
     browser.find_element_by_css_selector("button.sign-form__btn.button_with-loader ").click()
 
     cont = WebDriverWait(browser, 5).until(

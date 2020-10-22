@@ -64,7 +64,7 @@ try:
         print(f'Произошла ошибка, вот ее трэйсбек: {error}')
         submit = 1
     finally:
-        print('')
+        print('Все четко!')
 
     if submit != 1:
         input_answer = browser.find_element_by_css_selector("textarea[placeholder='Напишите ваш ответ здесь...']")
